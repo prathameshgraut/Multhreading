@@ -30,28 +30,34 @@ package Test.com;
 
 public class Test{
 	public static void main(String[] args) throws InterruptedException {
-		Test1 t1 = new Test1();
-		t1.setname("Prathamesh");
+//		Test1 t1 = new Test1();
+//		t1.setname("Prathamesh");
+//		
+//		Test1 t2 = new Test1();
+//		t2.setname("Bhavesh");
+//		
+//		Test1 t3 = new Test1();
+//		t3.setname("Sai Ram");
+//		
+//		Test1 t4 = new Test1();
+//		t4.setname("Pratik");
+//		
+//		Test1 t5 = new Test1();
+//		t5.setname("Harshal");
+//		
+//		t1.start();
+//		t1.sleep(2000);
+//		t2.start();
+//		t3.start();
+//		t4.start();
+//		t4.sleep(1000);
+//		t5.start();
 		
-		Test1 t2 = new Test1();
-		t2.setname("Bhavesh");
 		
-		Test1 t3 = new Test1();
-		t3.setname("Sai Ram");
-		
-		Test1 t4 = new Test1();
-		t4.setname("Pratik");
-		
-		Test1 t5 = new Test1();
-		t5.setname("Harshal");
-		
-		t1.start();
-		t1.sleep(2000);
-		t2.start();
-		t3.start();
-		t4.start();
-		t4.sleep(1000);
-		t5.start();
+		Test2 t1 =  new   Test2();
+//		t1.m1();
+//		t1.m2();
+		t1.m3();
 	}
 }
 
