@@ -43,43 +43,43 @@ public class Test {
 		MyThreads m18 = new MyThreads(printer1,"18");
 		MyThreads m19 = new MyThreads(printer1,"19");
 		m0.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m1.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m2.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m3.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m4.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m5.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m6.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m7.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m8.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m9.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m10.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m11.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m12.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m13.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m14.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m15.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m16.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m17.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m18.start();
-		Thread.sleep(1000);
+//		Thread.sleep(1000);
 		m19.start();
 		
 	}
@@ -101,12 +101,17 @@ class MyThreads extends Thread{
 
 	@Override
 	public void run() {
+//		printer.setMessage(message);
 		printer.print(message);
 	}
 }
 
 class Printer {
-	String message;
+	 String message;
+	
+//	public void setMessage(String message) {
+//		this.message=message;
+//	}
 	
 	public void print(String message) {
 		System.out.println(Thread.currentThread().getName()+"  =  "+ message);
