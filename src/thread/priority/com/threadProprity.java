@@ -35,4 +35,9 @@ class demo3 extends Thread{
 	public void run() {
 		System.out.println("Hello3 "+Thread.currentThread().getName());
 	}
+	
+	private void m1() {
+		// TODO Auto-generated method stub
+
+	}
 }
